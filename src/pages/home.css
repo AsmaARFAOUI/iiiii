@@ -1,0 +1,16 @@
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  list-style: none;
+  text-decoration: none;
+}
+.item {
+  background-color: #dc143c;
+  margin-right: 40px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.item:hover {
+  opacity: 0.8;
+}
